@@ -1,0 +1,42 @@
+# 05 Ponder : Weekly Reflection
+
+1. Describe one challenge your team experienced working on the Android activity.
+None. It was pretty straightforward.
+
+
+2. What is the difference between an Activity and an Intent?
+An Activity is a class that corresponds to a particular app screen. Each screen in an app is defined by an Activity, which contains its functions and UI code. An Intent is a class used to launch an Activity. It can launch Activities within the same app or a different app.
+
+
+3. Describe how the onCreate() callback works.
+The onCreate() callback fires when an Activity is starting. Every Activity must have an onCreate() method. This is the best place to instantiate or class-wide variables and for other similar setup code.
+
+
+4. What's the biggest challenge you've experienced regarding Android development compared to pure Java development?
+Android development requires a lot of understanding of how the Android system works, and you have to some things in specific ways. Passing data back and forth between Activities using intents was hard to get a grasp on.
+
+
+5. After completing the assignments this week, what questions do you still have?
+None
+
+
+6. A common Android-related interview question is "What's the difference between onPause() and onDestroy() and what kinds of things might you do in those functions?". How would you answer that question?
+onPause() is used when the user leaves the Activity. You might do things like close a network connection, or stop a process that continually updates. onDestroy() is called when the system is killing the process that the Activity is running on. This could be due to a configuration change, like a device rotation, so it is wise to pass relevant data from the Activity to a ViewModel in case it will be recreated.
+
+
+7. Of all of the resources and tutorials in this week's assignments, which was the _most_ helpful to you and why?
+The Activity lifecycle article helped me to understand Android apps at a holistic level. This was really helpful as I worked on the favorite scripture app.
+
+
+8. Of all of the resources and tutorials in this week's assignments, which was the _least_ helpful to you and why?
+The table of version numbers and API levels wasn't really relevant, and I think it would be easy enough to find that information when it is needed.
+
+
+9. How many hours did you spend on this class this week?
+
+05 Prepare - 1
+05 Teach - 1
+05 Prove - 5
+05 Ponder - 0.5
+----------------------------
+Total Hours - 7.5
