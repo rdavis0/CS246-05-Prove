@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">CS246-05-Prove</string>
+    <string name="label_book">Book</string>
+    <string name="label_chapter">Chapter</string>
+    <string name="label_verse">Verse</string>
+    <string name="textEditBook">Book</string>
+    <string name="textEditChapter">Chapter</string>
+    <string name="textEditVerse">Verse</string>
+    <string name="PREF_FILE_KEY">com.example.cs246_05_prove.PREFERENCE_FILE_KEY</string>
+    <string name="FAV_SCRIPTURE_BOOK_KEY">fav_scripture_book_key</string>
+    <string name="FAV_SCRIPTURE_CHAPTER_KEY">fav_scripture_chapter_key</string>
+    <string name="FAV_SCRIPTURE_VERSE_KEY">fav_scripture_verse_key</string>
 </resources>
